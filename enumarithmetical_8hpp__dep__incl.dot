@@ -1,0 +1,47 @@
+digraph "enumarithmetical.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="enumarithmetical.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="configlib.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$configlib_8hpp.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="alib.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$alib_8hpp.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="alox.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$alox_2alox_8hpp.html"];
+  Node3 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="owner.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$owner_8hpp.html"];
+  Node2 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="variable.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$variable_8hpp.html"];
+  Node47 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="configuration.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$configuration_8hpp.html"];
+  Node25 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="plugins.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$plugins_8hpp.html"];
+  Node48 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="enumbitwise.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enumbitwise_8hpp.html"];
+  Node52 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="enumiterators.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enumiterators_8hpp.html"];
+  Node52 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="substring.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$substring_8hpp.html"];
+  Node54 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="resourcedtupleloader.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$resourcedtupleloader_8hpp.html"];
+  Node54 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="formatter.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$formatter_8hpp.html"];
+  Node54 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="tokenizer.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$tokenizer_8hpp.html"];
+  Node56 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="timelib.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$timelib_8hpp.html"];
+  Node54 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="plugincontainer.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$plugincontainer_8hpp.html"];
+  Node46 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="stringtree.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$stringtree_8hpp.html"];
+  Node52 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

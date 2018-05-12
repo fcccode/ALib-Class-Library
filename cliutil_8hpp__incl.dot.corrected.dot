@@ -1,0 +1,29 @@
+digraph "cliutil.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="cliutil.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="alib/cli/cliapp.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cliapp_8hpp.html"];
+  Node2 [label="alib/strings/resourcestring.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$resourcestring_8hpp.html"];
+  Node3 [label="alib/cli/arguments.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$arguments_8hpp.html"];
+  Node4 [label="alib/cli/clilib.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clilib_8hpp.html"];
+  Node5 [label="alib/config/inifile.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inifile_8hpp.html"];
+  Node6 [label="alib/config/inmemoryplugin.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$inmemoryplugin_8hpp.html"];
+  Node18 [label="alib/strings/format/simpletext.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simpletext_8hpp.html"];
+  Node19 [label="alib/strings/format/formatterpythonstyle.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$formatterpythonstyle_8hpp.html"];
+  Node20 [label="alib/strings/format/formatterstdimpl.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$formatterstdimpl_8hpp.html"];
+  Node78 [label="alib/strings/util/autosizes.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$autosizes_8hpp.html"];
+  Node68 [label="stack",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}
+

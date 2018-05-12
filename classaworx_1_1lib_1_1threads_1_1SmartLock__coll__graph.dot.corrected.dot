@@ -1,0 +1,28 @@
+digraph "SmartLock"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node12 [label="SmartLock",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 [label="vector\<ThreadLock *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node22 [label="TStringBase\<nchar\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1TStringBase.html"];
+  Node23 [label="StringBase\<nchar\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1StringBase.html"];
+  Node16 [label="PreallocatedStringBase\<TChar\>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1PreallocatedStringBase.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node25 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" owner" ,fontname="Helvetica"];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" runnable" ,fontname="Helvetica"];
+  Node16 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name" ,fontname="Helvetica"];
+  Node21 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" c11Thread" ,fontname="Helvetica"];
+  Node22 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" acquirementMethodName\nacquirementSourcefile" ,fontname="Helvetica"];
+  Node22 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" acquirementMethodName\nacquirementSourcefile" ,fontname="Helvetica"];
+  Node23 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lock" ,fontname="Helvetica"];
+  Node25 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" acquirers" ,fontname="Helvetica"];
+  Node13 [label="ThreadLock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1threads_1_1ThreadLock.html"];
+  Node14 [label="Thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1threads_1_1Thread.html"];
+  Node15 [label="Runnable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1threads_1_1Runnable.html"];
+  Node21 [label="thread",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class. "];
+  Node24 [label="ThreadLockNR",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1threads_1_1ThreadLockNR.html"];
+}
+

@@ -1,0 +1,25 @@
+digraph "FormatterStdImpl&lt; TChar &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node7 [label="FormatterStdImpl\< TChar \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="FormatterBase\< TChar \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1format_1_1FormatterBase.html",tooltip="[DOX_ALIB_ENUM_META_DATA_SPECIFCATION_using_enum] "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThreadLock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1threads_1_1ThreadLock.html"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" owner" ,fontname="Helvetica"];
+  Node10 [label="Thread",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1threads_1_1Thread.html"];
+  Node18 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" acquirementMethodName\nacquirementSourcefile" ,fontname="Helvetica"];
+  Node18 [label="TStringBase\< nchar \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1TStringBase.html"];
+  Node20 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" boxes" ,fontname="Helvetica"];
+  Node20 [label="Boxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1Boxes.html"];
+  Node21 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="vector\< Box \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class. "];
+  Node23 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" phaArgument" ,fontname="Helvetica"];
+  Node23 [label="Box",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1Box.html"];
+  Node24 -> Node23 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node24 [label="BoxData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1boxing_1_1BoxData.html"];
+  Node25 -> Node23 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" boxer" ,fontname="Helvetica"];
+  Node25 [label="Boxer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1Boxer.html"];
+  Node20 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" arguments" ,fontname="Helvetica"];
+}

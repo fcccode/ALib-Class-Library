@@ -1,0 +1,46 @@
+digraph "Singleton&lt;TDerivedClass&gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="IApply_BoxedAs_TApplicable\<IApply_BoxedAs_TApplicable\<TChar, TApplicable\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1boxing_1_1IApply__BoxedAs__TApplicable.html"];
+  Node13 [label="IApply_TApplicable\<IApply_TApplicable\<TChar, TApplicable\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1boxing_1_1IApply__TApplicable.html"];
+  Node0 [label="Singleton\<TDerivedClass\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="ArrayBoxerT\<ArrayBoxerT\<TElementType\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1ArrayBoxerT.html"];
+  Node2 [label="BoxerT\<BoxerT\<TBoxable\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1BoxerT.html"];
+  Node3 [label="IEquals_Tdouble\<IEquals_Tdouble\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1ftypes_1_1IEquals__Tdouble.html",tooltip="Implements &#39;Equals&#39; - interface for boxed double values. "];
+  Node4 [label="IEquals_TncharArr\<IEquals_TncharArr\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1ftypes_1_1IEquals__TncharArr.html",tooltip="Implements &#39;Equals&#39; - interface for boxed nchar[] values. "];
+  Node5 [label="IEquals_TstrangeCharArr\<IEquals_TstrangeCharArr\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1ftypes_1_1IEquals__TstrangeCharArr.html",tooltip="Implements &#39;Equals&#39; - interface for boxed strangeChar[] values. "];
+  Node6 [label="IEquals_TwcharArr\<IEquals_TwcharArr\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1ftypes_1_1IEquals__TwcharArr.html",tooltip="Implements &#39;Equals&#39; - interface for boxed wchar[] values. "];
+  Node7 [label="IIsLess_boxed_int\<IIsLess_boxed_int\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1ftypes_1_1IIsLess__boxed__int.html",tooltip="Implements &#39;IsLess&#39; - interface for boxed boxed_int values. "];
+  Node8 [label="IIsLess_boxed_uint\<IIsLess_boxed_uint\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1ftypes_1_1IIsLess__boxed__uint.html",tooltip="Implements &#39;IsLess&#39; - interface for boxed boxed_uint values. "];
+  Node9 [label="IIsLess_double\<IIsLess_double\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1ftypes_1_1IIsLess__double.html",tooltip="Implements &#39;IsLess&#39; - interface for boxed double values. "];
+  Node10 [label="IEquals_TComparable\<IEquals_TComparable\<TComparable\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1IEquals__TComparable.html"];
+  Node11 [label="IIsNull_false\<IIsNull_false\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1IIsNull__false.html"];
+  Node14 [label="IApply_TncharArr\<IApply_TncharArr\<TChar\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1boxing_1_1IApply__TncharArr.html",tooltip="Implementation of IApply for boxable types char[] and char*. "];
+  Node15 [label="IApply_TstrangeCharArr\<IApply_TstrangeCharArr\<TChar\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1boxing_1_1IApply__TstrangeCharArr.html",tooltip="Implementation of IApply for boxable types strangeChar[] and strangeChar*. "];
+  Node16 [label="IApply_TwcharArr\<IApply_TwcharArr\<TChar\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1boxing_1_1IApply__TwcharArr.html",tooltip="Implementation of IApply for boxable types wchar_t[] and wchar_t*. "];
+  Node17 [label="IIsLess_Tchar_arr\<IIsLess_Tchar_arr\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1boxing_1_1IIsLess__Tchar__arr.html",tooltip="Implements &#39;IsLess&#39; - interface for boxed char arrays. "];
+  Node18 [label="IIsLess_Twchar_arr\<IIsLess_Twchar_arr\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1boxing_1_1IIsLess__Twchar__arr.html",tooltip="Implements &#39;IsLess&#39; - interface for boxed wchar_t arrays. "];
+  Node19 [label="IFormat_DateTime\<IFormat_DateTime\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1time_1_1IFormat__DateTime.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
+

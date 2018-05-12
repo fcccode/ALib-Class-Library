@@ -1,0 +1,28 @@
+digraph "ExitCodeDecl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="ExitCodeDecl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node37 [label="vector\<Library *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node38 [label="vector\<pair\<const char *, uint64_t\>\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 [label="ArgumentDecl\<ExitCodeDecl\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1cli_1_1ArgumentDecl.html"];
+  Node5 [label="TStringBase\<character\>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1TStringBase.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ResLib" ,fontname="Helvetica"];
+  Node4 -> Node37 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ResourceCategory" ,fontname="Helvetica"];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Res" ,fontname="Helvetica"];
+  Node19 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Config" ,fontname="Helvetica"];
+  Node19 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Config" ,fontname="Helvetica"];
+  Node37 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dependencies" ,fontname="Helvetica"];
+  Node38 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CompilationFlagMeanings" ,fontname="Helvetica"];
+  Node39 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" EnumBox" ,fontname="Helvetica"];
+  Node40 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Library",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1lang_1_1Library.html"];
+  Node7 [label="Resources",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1lang_1_1Resources.html"];
+  Node19 [label="Configuration",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1config_1_1Configuration.html"];
+  Node39 [label="Enum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1Enum.html"];
+  Node40 [label="Box",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1Box.html"];
+}
+

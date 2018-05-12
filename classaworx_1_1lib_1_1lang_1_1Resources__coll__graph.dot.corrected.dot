@@ -1,0 +1,44 @@
+digraph "Resources"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Resources",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 [label="vector\<MemoryBlocks::Block\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 [label="vector\<AStringBase\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node14 [label="PluginContainer\<ConfigurationPlugin, Priorities\>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1util_1_1PluginContainer.html"];
+  Node28 [label="vector\<StringBase\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 [label="AStringBase\<TChar\>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1AStringBase.html"];
+  Node24 [label="StringBase\<character\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1StringBase.html"];
+  Node25 [label="NumberFormatBase\<character\>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1NumberFormatBase.html"];
+  Node26 [label="TStringBase\<character\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1TStringBase.html"];
+  Node30 [label="AStringBase\<character\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1AStringBase.html"];
+  Node11 [label="PreallocatedStringBase\<TChar\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1PreallocatedStringBase.html"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cache" ,fontname="Helvetica"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blocks\nactBlock" ,fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" variable" ,fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" values" ,fontname="Helvetica"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Fullname\nCategory\nName" ,fontname="Helvetica"];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" FormatAttrAlignment" ,fontname="Helvetica"];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Config" ,fontname="Helvetica"];
+  Node13 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Config" ,fontname="Helvetica"];
+  Node14 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lock" ,fontname="Helvetica"];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" SubstitutionVariableStart\nSubstitutionVariableEnd\nSubstitutionVariableDelimiters" ,fontname="Helvetica"];
+  Node24 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" NumberFormat" ,fontname="Helvetica"];
+  Node26 -> Node25 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Whitespaces\nOctLiteralPrefix\nINFLiteral\nNANLiteral\nExponentSeparator\nBinLiteralPrefix\nHexLiteralPrefix" ,fontname="Helvetica"];
+  Node26 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" TrueValues" ,fontname="Helvetica"];
+  Node30 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" DefaultValue\nComments" ,fontname="Helvetica"];
+  Node2 [label="MemoryBlocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1util_1_1MemoryBlocks.html"];
+  Node4 [label="Block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1util_1_1MemoryBlocks_1_1Block.html"];
+  Node5 [label="Variable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1config_1_1Variable.html"];
+  Node13 [label="Configuration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1config_1_1Configuration.html"];
+  Node15 [label="ThreadLock",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1threads_1_1ThreadLock.html"];
+}
+

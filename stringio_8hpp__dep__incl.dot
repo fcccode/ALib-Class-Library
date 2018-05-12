@@ -1,0 +1,15 @@
+digraph "stringio.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="stringio.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ansilogger.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ansilogger_8hpp.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="alox.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$alox_8hpp_source.html"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="consolelogger.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$consolelogger_8hpp.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="textfilelogger.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$textfilelogger_8hpp.html"];
+}

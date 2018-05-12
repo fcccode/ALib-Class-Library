@@ -1,0 +1,30 @@
+digraph "StringTree&lt; T, TAllocator, TSeparator &gt;::Walker"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="StringTree\< T, TAllocator,\l TSeparator \>::Walker",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sorter" ,fontname="Helvetica"];
+  Node2 [label="Sorter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1util_1_1StringTree_1_1Walker_1_1Sorter.html"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" actPath" ,fontname="Helvetica"];
+  Node3 [label="AStringBase\< character \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1AStringBase.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TStringBase\< character \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1TStringBase.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="StringBase\< character \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1StringBase.html"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stack" ,fontname="Helvetica"];
+  Node6 [label="vector\< aworx::lib\l::util::StringTree::\lWalker::RecursionData \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="RecursionData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1util_1_1StringTree_1_1Walker_1_1RecursionData.html",tooltip="Protected, internal struct used to store the data of recursive iterations. "];
+  Node5 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nodeName" ,fontname="Helvetica"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" node" ,fontname="Helvetica"];
+  Node8 [label="Node",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1util_1_1StringTree_1_1Node.html"];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" parent" ,fontname="Helvetica"];
+  Node10 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sortedChildren\nactChild" ,fontname="Helvetica"];
+  Node10 [label="vector\< std::pair\<\l aworx::lib::strings\l::StringBase, aworx::\llib::util::StringTree\l::Node *\> \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stringTree" ,fontname="Helvetica"];
+  Node11 [label="StringTree\< T, TAllocator,\l TSeparator \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1util_1_1StringTree.html"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="TAllocator",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" root" ,fontname="Helvetica"];
+}

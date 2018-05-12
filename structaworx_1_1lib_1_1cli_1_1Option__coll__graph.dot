@@ -1,0 +1,35 @@
+digraph "Option"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="Option",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ArgumentDef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1cli_1_1ArgumentDef.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Parent" ,fontname="Helvetica"];
+  Node4 [label="CLIApp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1cli_1_1CLIApp.html"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" OptionDecls" ,fontname="Helvetica"];
+  Node5 [label="vector\< aworx::lib\l::cli::OptionDecl \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="OptionDecl",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1cli_1_1OptionDecl.html"];
+  Node47 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" OptionsOverwritten\nOptionsFound" ,fontname="Helvetica"];
+  Node47 [label="map\< aworx::lib::lang\l::Enum, std::vector\<\l aworx::lib::cli::Option \> \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" convertedArgStrings" ,fontname="Helvetica"];
+  Node16 [label="vector\< aworx::lib\l::strings::AStringBase \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node36 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" OptionArgsIgnored\nArgStrings" ,fontname="Helvetica"];
+  Node36 [label="vector\< aworx::lib\l::strings::StringBase \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ResLibrary" ,fontname="Helvetica"];
+  Node8 [label="Library",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1lang_1_1Library.html"];
+  Node49 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ArgsLeft" ,fontname="Helvetica"];
+  Node49 [label="vector\< size_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node50 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CommandsParsed" ,fontname="Helvetica"];
+  Node50 [label="vector\< aworx::lib\l::cli::Command \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node59 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ExitCodeDecls" ,fontname="Helvetica"];
+  Node59 [label="map\< aworx::lib::lang\l::Enum, aworx::lib::cli\l::ExitCodeDecl \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node62 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ParameterDecls" ,fontname="Helvetica"];
+  Node62 [label="vector\< aworx::lib\l::cli::ParameterDecl \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node63 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CommandDecls" ,fontname="Helvetica"];
+  Node63 [label="vector\< aworx::lib\l::cli::CommandDecl \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node36 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Args" ,fontname="Helvetica"];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Declaration" ,fontname="Helvetica"];
+}

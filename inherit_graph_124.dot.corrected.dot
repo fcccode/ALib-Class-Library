@@ -1,0 +1,36 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node267 [label="false_type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node269 [label="T_EnumIsArithmetical\<TEnum, TCheckEnum\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1T__EnumIsArithmetical.html"];
+  Node270 [label="T_EnumIsBitwise\<TEnum, TCheckEnum\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1T__EnumIsBitwise.html"];
+  Node271 [label="T_EnumIsIteratable\<TEnum, TCheckEnum\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1T__EnumIsIteratable.html"];
+  Node272 [label="T_EnumMetaDataDecl\<TEnum, TCheckEnum\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1T__EnumMetaDataDecl.html"];
+  Node273 [label="T_EnumMetaDataDeclReadWrite\<TEnum, TEnableIf\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1T__EnumMetaDataDeclReadWrite.html"];
+  Node274 [label="T_EnumMetaDataPreAndPostFix\<TEnum, TEnableIf\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1T__EnumMetaDataPreAndPostFix.html"];
+  Node276 [label="T_Apply\<TApplicable, TChar, TEnableIf\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1strings_1_1T__Apply.html"];
+  Node278 [label="T_String\<TStringLike, TChar\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1strings_1_1T__String.html"];
+  Node279 [label="T_StringLiteral\<TLiteral, TChar\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1strings_1_1T__StringLiteral.html"];
+  Node0 [label="T_Boxing\<TBoxable\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1boxing_1_1T__Boxing.html"];
+  Node275 [label="T_Resourced\<TResourced\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1T__Resourced.html"];
+  Node277 [label="T_IsTerminatable\<Type\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1strings_1_1T__IsTerminatable.html"];
+  Node280 [label="T_SuppressStdOstreamOperator\<T\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1strings_1_1thirdparty_1_1std_1_1T__SuppressStdOstreamOperator.html"];
+  Node281 [label="T_EnumMetaDataDecl\<TEnum\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lang_1_1T__EnumMetaDataDecl.html"];
+  Node267 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node269 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node270 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node271 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node272 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node273 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node274 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node275 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node276 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node277 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node278 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node280 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 -> Node281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
+

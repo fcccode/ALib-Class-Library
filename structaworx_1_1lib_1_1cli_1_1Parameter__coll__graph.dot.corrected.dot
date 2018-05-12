@@ -1,0 +1,36 @@
+digraph "Parameter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="Parameter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 [label="vector\<cli::OptionDecl\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node47 [label="map\<Enum, vector\<cli::Option\>\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 [label="vector\<AStringBase\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node36 [label="vector\<StringBase\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node50 [label="vector\<size_t\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node51 [label="vector\<cli::Command\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node59 [label="map\<Enum, cli::ExitCodeDecl\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node62 [label="vector\<cli::ParameterDecl\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node63 [label="vector\<cli::CommandDecl\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Parent" ,fontname="Helvetica"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" OptionDecls" ,fontname="Helvetica"];
+  Node8 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ResLibrary" ,fontname="Helvetica"];
+  Node16 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" convertedArgStrings" ,fontname="Helvetica"];
+  Node36 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Args" ,fontname="Helvetica"];
+  Node36 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" OptionArgsIgnored\nArgStrings" ,fontname="Helvetica"];
+  Node47 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" OptionsOverwritten\nOptionsFound" ,fontname="Helvetica"];
+  Node50 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ArgsLeft" ,fontname="Helvetica"];
+  Node51 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CommandsParsed" ,fontname="Helvetica"];
+  Node57 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Declaration" ,fontname="Helvetica"];
+  Node57 -> Node62 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node59 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ExitCodeDecls" ,fontname="Helvetica"];
+  Node62 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ParameterDecls" ,fontname="Helvetica"];
+  Node63 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CommandDecls" ,fontname="Helvetica"];
+  Node3 [label="ArgumentDef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1cli_1_1ArgumentDef.html"];
+  Node4 [label="CLIApp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1cli_1_1CLIApp.html"];
+  Node8 [label="Library",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1lang_1_1Library.html"];
+  Node57 [label="ParameterDecl",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1cli_1_1ParameterDecl.html"];
+}
+

@@ -1,0 +1,35 @@
+digraph "stringmap.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="stringmap.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="scope.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$scope_8hpp_source.html"];
+  Node3 [label="compilerplugin.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$compilerplugin_8hpp_source.html"];
+  Node4 [label="calculus.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$calculus_8hpp_source.html"];
+  Node9 [label="autocast.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$autocast_8hpp_source.html"];
+  Node10 [label="elvisoperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$elvisoperator_8hpp_source.html"];
+  Node11 [label="scopestring.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$scopestring_8hpp_source.html"];
+  Node12 [label="compiler.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$compiler_8hpp_source.html"];
+  Node13 [label="resources.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$resources_8hpp.html"];
+  Node14 [label="alib.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$alib_8hpp.html"];
+  Node15 [label="alox.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$alox_2alox_8hpp.html"];
+  Node30 [label="scopestore.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$scopestore_8hpp.html"];
+  Node33 [label="owner.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$owner_8hpp.html"];
+  Node47 [label="stringtree.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stringtree_8hpp.html"];
+}
+

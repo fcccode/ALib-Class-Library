@@ -1,0 +1,40 @@
+digraph "formatterstdimpl.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node67 [label="formatterstdimpl.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node67 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="scope.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$scope_8hpp_source.html"];
+  Node69 [label="compilerplugin.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$compilerplugin_8hpp_source.html"];
+  Node70 [label="calculus.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$calculus_8hpp_source.html"];
+  Node75 [label="autocast.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$autocast_8hpp_source.html"];
+  Node76 [label="elvisoperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$elvisoperator_8hpp_source.html"];
+  Node77 [label="scopestring.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$scopestring_8hpp_source.html"];
+  Node78 [label="formatterjavastyle.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$formatterjavastyle_8hpp.html"];
+  Node79 [label="textlogger.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$textlogger_8hpp.html"];
+  Node80 [label="plaintextlogger.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$plaintextlogger_8hpp.html"];
+  Node86 [label="ansilogger.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$ansilogger_8hpp.html"];
+  Node87 [label="windowsconsolelogger.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$windowsconsolelogger_8hpp.html"];
+  Node88 [label="formatterpythonstyle.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$formatterpythonstyle_8hpp.html"];
+  Node89 [label="simpletext.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$simpletext_8hpp.html"];
+  Node90 [label="cliutil.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cliutil_8hpp.html"];
+  Node91 [label="propertyformatter.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$propertyformatter_8hpp_source.html"];
+  Node92 [label="propertyformatters.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$propertyformatters_8hpp_source.html"];
+}
+

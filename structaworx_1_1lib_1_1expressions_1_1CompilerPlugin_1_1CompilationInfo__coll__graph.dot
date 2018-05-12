@@ -1,0 +1,34 @@
+digraph "CompilerPlugin::CompilationInfo"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="CompilerPlugin::CompilationInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ArgsEnd\nArgsBegin" ,fontname="Helvetica"];
+  Node6 [label="vector\< Box \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="Box",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1Box.html"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node8 [label="BoxData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1boxing_1_1BoxData.html"];
+  Node9 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" boxer" ,fontname="Helvetica"];
+  Node9 [label="Boxer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1boxing_1_1Boxer.html"];
+  Node10 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CompileTimeScope" ,fontname="Helvetica"];
+  Node10 [label="Scope",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1expressions_1_1Scope.html"];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Memory" ,fontname="Helvetica"];
+  Node11 [label="MemoryBlocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1util_1_1MemoryBlocks.html"];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blocks\nactBlock" ,fontname="Helvetica"];
+  Node12 [label="vector\< aworx::lib\l::util::MemoryBlocks\l::Block \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node14 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Resources" ,fontname="Helvetica"];
+  Node14 [label="vector\< aworx::lib\l::expressions::ScopeResource *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node15 [label="ScopeResource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1expressions_1_1ScopeResource.html"];
+  Node16 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nestedExpressionStack" ,fontname="Helvetica"];
+  Node16 [label="vector\< aworx::lib\l::expressions::Expression *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node17 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node17 [label="Expression",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1expressions_1_1Expression.html"];
+  Node10 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CTScope" ,fontname="Helvetica"];
+  Node59 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Stack" ,fontname="Helvetica"];
+  Node59 [label="vector\< aworx::lib\l::boxing::Box \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node59 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" TypeOrValue\nCallback" ,fontname="Helvetica"];
+}

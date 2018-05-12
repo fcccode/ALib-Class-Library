@@ -1,0 +1,28 @@
+digraph "Domain"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Domain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 [label="vector\<pair\<lox::PrefixLogable *, Inclusion\>\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 [label="vector\<lox::core::Domain::LoggerData\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node24 [label="vector\<lox::core::Domain *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 [label="TStringBase\<TChar\>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1TStringBase.html"];
+  Node3 [label="PreallocatedStringBase\<TChar\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1PreallocatedStringBase.html"];
+  Node4 [label="AStringBase\<TChar\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1AStringBase.html"];
+  Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Parent" ,fontname="Helvetica"];
+  Node1 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" PrefixLogables" ,fontname="Helvetica"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" FullPath" ,fontname="Helvetica"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Name" ,fontname="Helvetica"];
+  Node3 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" TypeName\nName" ,fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Data" ,fontname="Helvetica"];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Logger" ,fontname="Helvetica"];
+  Node24 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" SubDomains" ,fontname="Helvetica"];
+  Node11 [label="LoggerData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1lox_1_1core_1_1Domain_1_1LoggerData.html"];
+  Node12 [label="Logger",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1lox_1_1core_1_1Logger.html"];
+}
+

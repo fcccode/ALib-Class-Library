@@ -1,0 +1,30 @@
+digraph "ticks.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node9 [label="ticks.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="scopeinfo.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$scopeinfo_8hpp.html"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="lox.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lox_8hpp.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="alox.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$alox_2alox_8hpp.html"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="textlogger.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$textlogger_8hpp.html"];
+  Node9 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="expression.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$expression_8hpp_source.html"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="compiler.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$compiler_8hpp_source.html"];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="compilerplugin.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$compilerplugin_8hpp_source.html"];
+  Node9 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="calendar.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$calendar_8hpp.html"];
+  Node38 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="stopwatch.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stopwatch_8hpp.html"];
+  Node9 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="ticksconverter.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ticksconverter_8hpp.html"];
+  Node40 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

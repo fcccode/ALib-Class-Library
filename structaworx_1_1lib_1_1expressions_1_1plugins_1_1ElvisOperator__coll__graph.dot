@@ -1,0 +1,37 @@
+digraph "ElvisOperator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="ElvisOperator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CompilerPlugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1expressions_1_1CompilerPlugin.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Parent" ,fontname="Helvetica"];
+  Node4 [label="Compiler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1expressions_1_1Compiler.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PluginContainer\< Compiler\lPlugin, CompilePriorities \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1util_1_1PluginContainer.html"];
+  Node20 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CfgNestedExpressionOperator\nCfgNestedExpressionThrowIdentifier" ,fontname="Helvetica"];
+  Node20 [label="StringBase\< character \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1StringBase.html"];
+  Node21 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" parser" ,fontname="Helvetica"];
+  Node21 [label="Parser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1expressions_1_1detail_1_1Parser.html"];
+  Node22 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CfgNormalizationDisallowed\nDefaultCategories" ,fontname="Helvetica"];
+  Node22 [label="vector\< aworx::lib\l::strings::AStringBase \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node24 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" var" ,fontname="Helvetica"];
+  Node24 [label="Variable",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1config_1_1Variable.html"];
+  Node22 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" values" ,fontname="Helvetica"];
+  Node25 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Config" ,fontname="Helvetica"];
+  Node25 [label="Configuration",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1config_1_1Configuration.html"];
+  Node20 -> Node25 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" SubstitutionVariableStart\nSubstitutionVariableEnd\nSubstitutionVariableDelimiters" ,fontname="Helvetica"];
+  Node30 -> Node25 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" TrueValues" ,fontname="Helvetica"];
+  Node30 [label="vector\< aworx::lib\l::strings::StringBase \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node31 -> Node30 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node31 [label="StringBase\< TChar \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classaworx_1_1lib_1_1strings_1_1StringBase.html"];
+  Node35 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" VariablesLoaded" ,fontname="Helvetica"];
+  Node35 [label="vector\< std::tuple\l\< Priorities, aworx\l::lib::strings::AStringBase,\l aworx::lib::strings::AStringBase,\l aworx::lib::strings::StringBase \> \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node30 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" UnaryOperators" ,fontname="Helvetica"];
+  Node25 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Config" ,fontname="Helvetica"];
+  Node36 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CfgNestedExpressionFunction" ,fontname="Helvetica"];
+  Node36 [label="FunctionNameDescriptor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structaworx_1_1lib_1_1expressions_1_1FunctionNameDescriptor.html"];
+  Node20 -> Node36 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Name" ,fontname="Helvetica"];
+  Node31 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Name" ,fontname="Helvetica"];
+}

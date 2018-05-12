@@ -1,0 +1,27 @@
+digraph "formatter.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node66 [label="formatter.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node66 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="formatterstdimpl.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$formatterstdimpl_8hpp.html"];
+  Node67 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="scope.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$scope_8hpp_source.html"];
+  Node68 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="compilerplugin.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$compilerplugin_8hpp_source.html"];
+  Node68 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="scopestring.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$scopestring_8hpp_source.html"];
+  Node67 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="formatterjavastyle.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$formatterjavastyle_8hpp.html"];
+  Node78 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="textlogger.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$textlogger_8hpp.html"];
+  Node67 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="formatterpythonstyle.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$formatterpythonstyle_8hpp.html"];
+  Node88 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="simpletext.hpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$simpletext_8hpp.html"];
+  Node67 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="propertyformatter.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$propertyformatter_8hpp_source.html"];
+  Node91 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="propertyformatters.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$propertyformatters_8hpp_source.html"];
+}
